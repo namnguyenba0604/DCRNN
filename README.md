@@ -2,7 +2,7 @@ Tải thư viện trong Requirements
 ## Data Preparation
 Tải `metr-la.h5` and `pems-bay.h5` từ [Google Drive](https://drive.google.com/open?id=10FOTa6HXPqX8Pf5WRoRwcFnW9BrNZEIX) bỏ vào trong data folder
 
-tạo folder METR-LA và PEMS-BAY trong data
+Tạo 2 folder METR-LA và PEMS-BAY trong folder Data
 ```bash
 # METR-LA
 python -m scripts.generate_training_data --output_dir=data/METR-LA --traffic_df_filename=data/metr-la.h5
