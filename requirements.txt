@@ -1,0 +1,7 @@
+python 3.6.7
+scipy==1.5.4
+numpy==1.19.5
+pandas==1.1.5
+pyyaml
+statsmodels
+tensorflow==1.15.0
