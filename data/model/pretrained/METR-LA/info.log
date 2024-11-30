@@ -1,0 +1,148 @@
+2024-11-24 01:27:02,445 - model.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2024-11-24 01:27:02,446 - model.dcrnn_supervisor - INFO - {'base_dir': 'data/model', 'log_level': 'INFO', 'data': {'batch_size': 64, 'dataset_dir': 'data/METR-LA', 'graph_pkl_filename': 'data/sensor_graph/adj_mx.pkl', 'test_batch_size': 64}, 'model': {'cl_decay_steps': 2000, 'filter_type': 'dual_random_walk', 'horizon': 12, 'input_dim': 2, 'l1_decay': 0, 'max_diffusion_step': 2, 'num_nodes': 207, 'num_rnn_layers': 2, 'output_dim': 1, 'rnn_units': 64, 'seq_len': 12, 'use_curriculum_learning': True}, 'train': {'base_lr': 0.01, 'dropout': 0, 'epoch': 64, 'epochs': 100, 'epsilon': 0.001, 'global_step': 24375, 'log_dir': 'data/model/pretrained/METR-LA', 'lr_decay_ratio': 0.1, 'max_grad_norm': 5, 'max_to_keep': 100, 'min_learning_rate': 2e-06, 'model_filename': 'data/model/pretrained/METR-LA/models-2.7422-24375', 'optimizer': 'adam', 'patience': 50, 'steps': [20, 30, 40, 50], 'test_every_n_epochs': 10}}
+2024-11-24 01:27:13,003 - model.dcrnn_supervisor - INFO - ('x_train', (23974, 12, 207, 2))
+2024-11-24 01:27:13,003 - model.dcrnn_supervisor - INFO - ('y_train', (23974, 12, 207, 2))
+2024-11-24 01:27:13,004 - model.dcrnn_supervisor - INFO - ('x_val', (3425, 12, 207, 2))
+2024-11-24 01:27:13,004 - model.dcrnn_supervisor - INFO - ('y_val', (3425, 12, 207, 2))
+2024-11-24 01:27:13,005 - model.dcrnn_supervisor - INFO - ('x_test', (6850, 12, 207, 2))
+2024-11-24 01:27:13,005 - model.dcrnn_supervisor - INFO - ('y_test', (6850, 12, 207, 2))
+2024-11-24 01:27:27,080 - model.dcrnn_supervisor - INFO - Total number of trainable parameters: 372352
+2024-11-24 16:13:18,992 - model.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2024-11-24 16:13:18,992 - model.dcrnn_supervisor - INFO - {'base_dir': 'data/model', 'log_level': 'INFO', 'data': {'batch_size': 64, 'dataset_dir': 'data/METR-LA', 'graph_pkl_filename': 'data/sensor_graph/adj_mx.pkl', 'test_batch_size': 64}, 'model': {'cl_decay_steps': 2000, 'filter_type': 'dual_random_walk', 'horizon': 12, 'input_dim': 2, 'l1_decay': 0, 'max_diffusion_step': 2, 'num_nodes': 207, 'num_rnn_layers': 2, 'output_dim': 1, 'rnn_units': 64, 'seq_len': 12, 'use_curriculum_learning': True}, 'train': {'base_lr': 0.01, 'dropout': 0, 'epoch': 64, 'epochs': 100, 'epsilon': 0.001, 'global_step': 24375, 'log_dir': 'data/model/pretrained/METR-LA', 'lr_decay_ratio': 0.1, 'max_grad_norm': 5, 'max_to_keep': 100, 'min_learning_rate': 2e-06, 'model_filename': 'data/model/pretrained/METR-LA/models-2.7422-24375', 'optimizer': 'adam', 'patience': 50, 'steps': [20, 30, 40, 50], 'test_every_n_epochs': 10}}
+2024-11-24 16:13:29,999 - model.dcrnn_supervisor - INFO - ('x_train', (23974, 12, 207, 2))
+2024-11-24 16:13:29,999 - model.dcrnn_supervisor - INFO - ('y_train', (23974, 12, 207, 2))
+2024-11-24 16:13:29,999 - model.dcrnn_supervisor - INFO - ('x_val', (3425, 12, 207, 2))
+2024-11-24 16:13:29,999 - model.dcrnn_supervisor - INFO - ('y_val', (3425, 12, 207, 2))
+2024-11-24 16:13:29,999 - model.dcrnn_supervisor - INFO - ('x_test', (6850, 12, 207, 2))
+2024-11-24 16:13:29,999 - model.dcrnn_supervisor - INFO - ('y_test', (6850, 12, 207, 2))
+2024-11-24 16:13:43,417 - model.dcrnn_supervisor - INFO - Total number of trainable parameters: 372352
+2024-11-24 16:44:52,932 - model.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2024-11-24 16:44:52,932 - model.dcrnn_supervisor - INFO - {'base_dir': 'data/model', 'log_level': 'INFO', 'data': {'batch_size': 64, 'dataset_dir': 'data/METR-LA', 'graph_pkl_filename': 'data/sensor_graph/adj_mx.pkl', 'test_batch_size': 64}, 'model': {'cl_decay_steps': 2000, 'filter_type': 'dual_random_walk', 'horizon': 12, 'input_dim': 2, 'l1_decay': 0, 'max_diffusion_step': 2, 'num_nodes': 207, 'num_rnn_layers': 2, 'output_dim': 1, 'rnn_units': 64, 'seq_len': 12, 'use_curriculum_learning': True}, 'train': {'base_lr': 0.01, 'dropout': 0, 'epoch': 64, 'epochs': 100, 'epsilon': 0.001, 'global_step': 24375, 'log_dir': 'data/model/pretrained/METR-LA', 'lr_decay_ratio': 0.1, 'max_grad_norm': 5, 'max_to_keep': 100, 'min_learning_rate': 2e-06, 'model_filename': 'data/model/pretrained/METR-LA/models-2.7422-24375', 'optimizer': 'adam', 'patience': 50, 'steps': [20, 30, 40, 50], 'test_every_n_epochs': 10}}
+2024-11-24 16:45:01,945 - model.dcrnn_supervisor - INFO - ('x_train', (23974, 12, 207, 2))
+2024-11-24 16:45:01,945 - model.dcrnn_supervisor - INFO - ('y_train', (23974, 12, 207, 2))
+2024-11-24 16:45:01,945 - model.dcrnn_supervisor - INFO - ('x_val', (3425, 12, 207, 2))
+2024-11-24 16:45:01,945 - model.dcrnn_supervisor - INFO - ('y_val', (3425, 12, 207, 2))
+2024-11-24 16:45:01,945 - model.dcrnn_supervisor - INFO - ('x_test', (6850, 12, 207, 2))
+2024-11-24 16:45:01,945 - model.dcrnn_supervisor - INFO - ('y_test', (6850, 12, 207, 2))
+2024-11-24 16:45:09,645 - model.dcrnn_supervisor - INFO - Total number of trainable parameters: 372352
+2024-11-24 16:49:48,038 - model.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2024-11-24 16:49:48,038 - model.dcrnn_supervisor - INFO - {'base_dir': 'data/model', 'log_level': 'INFO', 'data': {'batch_size': 64, 'dataset_dir': 'data/METR-LA', 'graph_pkl_filename': 'data/sensor_graph/adj_mx.pkl', 'test_batch_size': 64}, 'model': {'cl_decay_steps': 2000, 'filter_type': 'dual_random_walk', 'horizon': 12, 'input_dim': 2, 'l1_decay': 0, 'max_diffusion_step': 2, 'num_nodes': 207, 'num_rnn_layers': 2, 'output_dim': 1, 'rnn_units': 64, 'seq_len': 12, 'use_curriculum_learning': True}, 'train': {'base_lr': 0.01, 'dropout': 0, 'epoch': 64, 'epochs': 100, 'epsilon': 0.001, 'global_step': 24375, 'log_dir': 'data/model/pretrained/METR-LA', 'lr_decay_ratio': 0.1, 'max_grad_norm': 5, 'max_to_keep': 100, 'min_learning_rate': 2e-06, 'model_filename': 'data/model/pretrained/METR-LA/models-2.7422-24375', 'optimizer': 'adam', 'patience': 50, 'steps': [20, 30, 40, 50], 'test_every_n_epochs': 10}}
+2024-11-24 16:49:56,405 - model.dcrnn_supervisor - INFO - ('x_train', (23974, 12, 207, 2))
+2024-11-24 16:49:56,405 - model.dcrnn_supervisor - INFO - ('y_train', (23974, 12, 207, 2))
+2024-11-24 16:49:56,405 - model.dcrnn_supervisor - INFO - ('x_val', (3425, 12, 207, 2))
+2024-11-24 16:49:56,405 - model.dcrnn_supervisor - INFO - ('y_val', (3425, 12, 207, 2))
+2024-11-24 16:49:56,405 - model.dcrnn_supervisor - INFO - ('x_test', (6850, 12, 207, 2))
+2024-11-24 16:49:56,405 - model.dcrnn_supervisor - INFO - ('y_test', (6850, 12, 207, 2))
+2024-11-24 16:50:03,740 - model.dcrnn_supervisor - INFO - Total number of trainable parameters: 372352
+2024-11-24 16:54:44,035 - model.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2024-11-24 16:54:44,042 - model.dcrnn_supervisor - INFO - {'base_dir': 'data/model', 'log_level': 'INFO', 'data': {'batch_size': 64, 'dataset_dir': 'data/METR-LA', 'graph_pkl_filename': 'data/sensor_graph/adj_mx.pkl', 'test_batch_size': 64}, 'model': {'cl_decay_steps': 2000, 'filter_type': 'dual_random_walk', 'horizon': 12, 'input_dim': 2, 'l1_decay': 0, 'max_diffusion_step': 2, 'num_nodes': 207, 'num_rnn_layers': 2, 'output_dim': 1, 'rnn_units': 64, 'seq_len': 12, 'use_curriculum_learning': True}, 'train': {'base_lr': 0.01, 'dropout': 0, 'epoch': 64, 'epochs': 100, 'epsilon': 0.001, 'global_step': 24375, 'log_dir': 'data/model/pretrained/METR-LA', 'lr_decay_ratio': 0.1, 'max_grad_norm': 5, 'max_to_keep': 100, 'min_learning_rate': 2e-06, 'model_filename': 'data/model/pretrained/METR-LA/models-2.7422-24375', 'optimizer': 'adam', 'patience': 50, 'steps': [20, 30, 40, 50], 'test_every_n_epochs': 10}}
+2024-11-24 16:54:51,884 - model.dcrnn_supervisor - INFO - ('x_train', (23974, 12, 207, 2))
+2024-11-24 16:54:51,892 - model.dcrnn_supervisor - INFO - ('y_train', (23974, 12, 207, 2))
+2024-11-24 16:54:51,892 - model.dcrnn_supervisor - INFO - ('x_val', (3425, 12, 207, 2))
+2024-11-24 16:54:51,892 - model.dcrnn_supervisor - INFO - ('y_val', (3425, 12, 207, 2))
+2024-11-24 16:54:51,892 - model.dcrnn_supervisor - INFO - ('x_test', (6850, 12, 207, 2))
+2024-11-24 16:54:51,892 - model.dcrnn_supervisor - INFO - ('y_test', (6850, 12, 207, 2))
+2024-11-24 16:54:59,246 - model.dcrnn_supervisor - INFO - Total number of trainable parameters: 372352
+2024-11-25 23:57:51,896 - model.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2024-11-25 23:58:15,126 - model.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2024-11-25 23:58:15,126 - model.dcrnn_supervisor - INFO - {'base_dir': 'data/model', 'log_level': 'INFO', 'data': {'batch_size': 64, 'dataset_dir': 'data/METR-LA', 'graph_pkl_filename': 'data/sensor_graph/adj_mx.pkl', 'test_batch_size': 64}, 'model': {'cl_decay_steps': 2000, 'filter_type': 'dual_random_walk', 'horizon': 12, 'input_dim': 2, 'l1_decay': 0, 'max_diffusion_step': 2, 'num_nodes': 207, 'num_rnn_layers': 2, 'output_dim': 1, 'rnn_units': 64, 'seq_len': 12, 'use_curriculum_learning': True}, 'train': {'base_lr': 0.01, 'dropout': 0, 'epoch': 64, 'epochs': 100, 'epsilon': 0.001, 'global_step': 24375, 'log_dir': 'data/model/pretrained/METR-LA', 'lr_decay_ratio': 0.1, 'max_grad_norm': 5, 'max_to_keep': 100, 'min_learning_rate': 2e-06, 'model_filename': 'data/model/pretrained/METR-LA/models-2.7422-24375', 'optimizer': 'adam', 'patience': 50, 'steps': [20, 30, 40, 50], 'test_every_n_epochs': 10}}
+2024-11-25 23:58:23,798 - model.dcrnn_supervisor - INFO - ('x_train', (23974, 12, 207, 2))
+2024-11-25 23:58:23,798 - model.dcrnn_supervisor - INFO - ('y_train', (23974, 12, 207, 2))
+2024-11-25 23:58:23,798 - model.dcrnn_supervisor - INFO - ('x_val', (3425, 12, 207, 2))
+2024-11-25 23:58:23,798 - model.dcrnn_supervisor - INFO - ('y_val', (3425, 12, 207, 2))
+2024-11-25 23:58:23,798 - model.dcrnn_supervisor - INFO - ('x_test', (6850, 12, 207, 2))
+2024-11-25 23:58:23,798 - model.dcrnn_supervisor - INFO - ('y_test', (6850, 12, 207, 2))
+2024-11-25 23:58:30,238 - model.dcrnn_supervisor - INFO - Total number of trainable parameters: 372352
+2024-11-26 00:06:08,169 - model.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2024-11-26 00:06:08,170 - model.dcrnn_supervisor - INFO - {'base_dir': 'data/model', 'log_level': 'INFO', 'data': {'batch_size': 16, 'dataset_dir': 'data/METR-LA', 'graph_pkl_filename': 'data/sensor_graph/adj_mx.pkl', 'test_batch_size': 64}, 'model': {'cl_decay_steps': 2000, 'filter_type': 'dual_random_walk', 'horizon': 12, 'input_dim': 2, 'l1_decay': 0, 'max_diffusion_step': 2, 'num_nodes': 207, 'num_rnn_layers': 2, 'output_dim': 1, 'rnn_units': 64, 'seq_len': 12, 'use_curriculum_learning': True}, 'train': {'base_lr': 0.01, 'dropout': 0, 'epoch': 10, 'epochs': 20, 'epsilon': 0.001, 'global_step': 24375, 'log_dir': 'data/model/pretrained/METR-LA', 'lr_decay_ratio': 0.1, 'max_grad_norm': 5, 'max_to_keep': 100, 'min_learning_rate': 2e-06, 'model_filename': 'data/model/pretrained/METR-LA/models-2.7422-24375', 'optimizer': 'adam', 'patience': 50, 'steps': [20, 30, 40, 50], 'test_every_n_epochs': 10}}
+2024-11-26 00:06:15,755 - model.dcrnn_supervisor - INFO - ('x_train', (23974, 12, 207, 2))
+2024-11-26 00:06:15,755 - model.dcrnn_supervisor - INFO - ('y_train', (23974, 12, 207, 2))
+2024-11-26 00:06:15,755 - model.dcrnn_supervisor - INFO - ('x_val', (3425, 12, 207, 2))
+2024-11-26 00:06:15,755 - model.dcrnn_supervisor - INFO - ('y_val', (3425, 12, 207, 2))
+2024-11-26 00:06:15,755 - model.dcrnn_supervisor - INFO - ('x_test', (6850, 12, 207, 2))
+2024-11-26 00:06:15,755 - model.dcrnn_supervisor - INFO - ('y_test', (6850, 12, 207, 2))
+2024-11-26 00:06:21,875 - model.dcrnn_supervisor - INFO - Total number of trainable parameters: 372352
+2024-11-26 00:27:47,104 - model.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2024-11-26 00:27:47,104 - model.dcrnn_supervisor - INFO - {'base_dir': 'data/model', 'log_level': 'INFO', 'data': {'batch_size': 16, 'dataset_dir': 'data/METR-LA', 'graph_pkl_filename': 'data/sensor_graph/adj_mx.pkl', 'test_batch_size': 64}, 'model': {'cl_decay_steps': 2000, 'filter_type': 'dual_random_walk', 'horizon': 12, 'input_dim': 2, 'l1_decay': 0, 'max_diffusion_step': 2, 'num_nodes': 207, 'num_rnn_layers': 2, 'output_dim': 1, 'rnn_units': 64, 'seq_len': 12, 'use_curriculum_learning': True}, 'train': {'base_lr': 0.01, 'dropout': 0, 'epoch': 10, 'epochs': 20, 'epsilon': 0.001, 'global_step': 24375, 'log_dir': 'data/model/pretrained/METR-LA', 'lr_decay_ratio': 0.1, 'max_grad_norm': 5, 'max_to_keep': 100, 'min_learning_rate': 2e-06, 'model_filename': 'data/model/pretrained/METR-LA/models-2.7422-24375', 'optimizer': 'adam', 'patience': 50, 'steps': [20, 30, 40, 50], 'test_every_n_epochs': 10}}
+2024-11-26 00:28:01,137 - model.dcrnn_supervisor - INFO - ('x_train', (23974, 12, 207, 2))
+2024-11-26 00:28:01,138 - model.dcrnn_supervisor - INFO - ('y_train', (23974, 12, 207, 2))
+2024-11-26 00:28:01,138 - model.dcrnn_supervisor - INFO - ('x_val', (3425, 12, 207, 2))
+2024-11-26 00:28:01,138 - model.dcrnn_supervisor - INFO - ('y_val', (3425, 12, 207, 2))
+2024-11-26 00:28:01,138 - model.dcrnn_supervisor - INFO - ('x_test', (6850, 12, 207, 2))
+2024-11-26 00:28:01,138 - model.dcrnn_supervisor - INFO - ('y_test', (6850, 12, 207, 2))
+2024-11-26 00:28:07,543 - model.dcrnn_supervisor - INFO - Total number of trainable parameters: 372352
+2024-11-26 00:37:52,034 - model.dcrnn_supervisor - INFO - Horizon 01, MAE: 2.17, MAPE: 0.0517, RMSE: 3.76
+2024-11-26 00:37:52,319 - model.dcrnn_supervisor - INFO - Horizon 02, MAE: 2.47, MAPE: 0.0612, RMSE: 4.59
+2024-11-26 00:37:52,570 - model.dcrnn_supervisor - INFO - Horizon 03, MAE: 2.66, MAPE: 0.0683, RMSE: 5.16
+2024-11-26 00:37:52,903 - model.dcrnn_supervisor - INFO - Horizon 04, MAE: 2.82, MAPE: 0.0742, RMSE: 5.61
+2024-11-26 00:37:53,236 - model.dcrnn_supervisor - INFO - Horizon 05, MAE: 2.95, MAPE: 0.0792, RMSE: 5.98
+2024-11-26 00:37:53,457 - model.dcrnn_supervisor - INFO - Horizon 06, MAE: 3.06, MAPE: 0.0836, RMSE: 6.28
+2024-11-26 00:37:53,836 - model.dcrnn_supervisor - INFO - Horizon 07, MAE: 3.16, MAPE: 0.0875, RMSE: 6.54
+2024-11-26 00:37:54,200 - model.dcrnn_supervisor - INFO - Horizon 08, MAE: 3.25, MAPE: 0.0910, RMSE: 6.77
+2024-11-26 00:37:54,435 - model.dcrnn_supervisor - INFO - Horizon 09, MAE: 3.33, MAPE: 0.0941, RMSE: 6.97
+2024-11-26 00:37:54,798 - model.dcrnn_supervisor - INFO - Horizon 10, MAE: 3.40, MAPE: 0.0970, RMSE: 7.15
+2024-11-26 00:37:55,113 - model.dcrnn_supervisor - INFO - Horizon 11, MAE: 3.47, MAPE: 0.0996, RMSE: 7.31
+2024-11-26 00:37:55,333 - model.dcrnn_supervisor - INFO - Horizon 12, MAE: 3.54, MAPE: 0.1024, RMSE: 7.48
+2024-11-26 13:59:05,238 - model.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2024-11-26 13:59:05,238 - model.dcrnn_supervisor - INFO - {'base_dir': 'data/model', 'log_level': 'INFO', 'data': {'batch_size': 64, 'dataset_dir': 'data/METR-LA', 'graph_pkl_filename': 'data/sensor_graph/adj_mx.pkl', 'test_batch_size': 64}, 'model': {'cl_decay_steps': 2000, 'filter_type': 'dual_random_walk', 'horizon': 12, 'input_dim': 2, 'l1_decay': 0, 'max_diffusion_step': 2, 'num_nodes': 207, 'num_rnn_layers': 2, 'output_dim': 1, 'rnn_units': 64, 'seq_len': 12, 'use_curriculum_learning': True}, 'train': {'base_lr': 0.01, 'dropout': 0, 'epoch': 10, 'epochs': 20, 'epsilon': 0.001, 'global_step': 24375, 'log_dir': 'data/model/pretrained/METR-LA', 'lr_decay_ratio': 0.1, 'max_grad_norm': 5, 'max_to_keep': 100, 'min_learning_rate': 2e-06, 'model_filename': 'data/model/pretrained/METR-LA/models-2.7422-24375', 'optimizer': 'adam', 'patience': 50, 'steps': [20, 30, 40, 50], 'test_every_n_epochs': 10}}
+2024-11-26 13:59:13,509 - model.dcrnn_supervisor - INFO - ('x_train', (23974, 12, 207, 2))
+2024-11-26 13:59:13,509 - model.dcrnn_supervisor - INFO - ('y_train', (23974, 12, 207, 2))
+2024-11-26 13:59:13,509 - model.dcrnn_supervisor - INFO - ('x_val', (3425, 12, 207, 2))
+2024-11-26 13:59:13,523 - model.dcrnn_supervisor - INFO - ('y_val', (3425, 12, 207, 2))
+2024-11-26 13:59:13,523 - model.dcrnn_supervisor - INFO - ('x_test', (6850, 12, 207, 2))
+2024-11-26 13:59:13,523 - model.dcrnn_supervisor - INFO - ('y_test', (6850, 12, 207, 2))
+2024-11-26 13:59:19,876 - model.dcrnn_supervisor - INFO - Total number of trainable parameters: 372352
+2024-11-26 14:09:22,408 - model.dcrnn_supervisor - INFO - Horizon 01, MAE: 2.17, MAPE: 0.0517, RMSE: 3.76
+2024-11-26 14:09:22,544 - model.dcrnn_supervisor - INFO - Horizon 02, MAE: 2.47, MAPE: 0.0612, RMSE: 4.59
+2024-11-26 14:09:22,654 - model.dcrnn_supervisor - INFO - Horizon 03, MAE: 2.66, MAPE: 0.0683, RMSE: 5.16
+2024-11-26 14:09:22,769 - model.dcrnn_supervisor - INFO - Horizon 04, MAE: 2.82, MAPE: 0.0742, RMSE: 5.61
+2024-11-26 14:09:22,889 - model.dcrnn_supervisor - INFO - Horizon 05, MAE: 2.95, MAPE: 0.0792, RMSE: 5.98
+2024-11-26 14:09:23,051 - model.dcrnn_supervisor - INFO - Horizon 06, MAE: 3.06, MAPE: 0.0836, RMSE: 6.28
+2024-11-26 14:09:23,163 - model.dcrnn_supervisor - INFO - Horizon 07, MAE: 3.16, MAPE: 0.0875, RMSE: 6.54
+2024-11-26 14:09:23,285 - model.dcrnn_supervisor - INFO - Horizon 08, MAE: 3.25, MAPE: 0.0910, RMSE: 6.77
+2024-11-26 14:09:23,390 - model.dcrnn_supervisor - INFO - Horizon 09, MAE: 3.33, MAPE: 0.0941, RMSE: 6.97
+2024-11-26 14:09:23,504 - model.dcrnn_supervisor - INFO - Horizon 10, MAE: 3.40, MAPE: 0.0970, RMSE: 7.15
+2024-11-26 14:09:23,617 - model.dcrnn_supervisor - INFO - Horizon 11, MAE: 3.47, MAPE: 0.0996, RMSE: 7.31
+2024-11-26 14:09:23,714 - model.dcrnn_supervisor - INFO - Horizon 12, MAE: 3.54, MAPE: 0.1024, RMSE: 7.48
+2024-11-26 16:25:05,835 - model.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2024-11-26 16:25:05,835 - model.dcrnn_supervisor - INFO - {'base_dir': 'data/model', 'log_level': 'INFO', 'data': {'batch_size': 64, 'dataset_dir': 'data/METR-LA', 'graph_pkl_filename': 'data/sensor_graph/adj_mx.pkl', 'test_batch_size': 64}, 'model': {'cl_decay_steps': 2000, 'filter_type': 'dual_random_walk', 'horizon': 12, 'input_dim': 2, 'l1_decay': 0, 'max_diffusion_step': 2, 'num_nodes': 207, 'num_rnn_layers': 2, 'output_dim': 1, 'rnn_units': 64, 'seq_len': 12, 'use_curriculum_learning': True}, 'train': {'base_lr': 0.01, 'dropout': 0, 'epoch': 10, 'epochs': 20, 'epsilon': 0.001, 'global_step': 24375, 'log_dir': 'data/model/pretrained/METR-LA', 'lr_decay_ratio': 0.1, 'max_grad_norm': 5, 'max_to_keep': 100, 'min_learning_rate': 2e-06, 'model_filename': 'data/model/pretrained/METR-LA/models-2.7422-24375', 'optimizer': 'adam', 'patience': 50, 'steps': [20, 30, 40, 50], 'test_every_n_epochs': 10}}
+2024-11-26 16:25:15,854 - model.dcrnn_supervisor - INFO - ('x_train', (23974, 12, 207, 2))
+2024-11-26 16:25:15,854 - model.dcrnn_supervisor - INFO - ('y_train', (23974, 12, 207, 2))
+2024-11-26 16:25:15,854 - model.dcrnn_supervisor - INFO - ('x_val', (3425, 12, 207, 2))
+2024-11-26 16:25:15,854 - model.dcrnn_supervisor - INFO - ('y_val', (3425, 12, 207, 2))
+2024-11-26 16:25:15,854 - model.dcrnn_supervisor - INFO - ('x_test', (6850, 12, 207, 2))
+2024-11-26 16:25:15,854 - model.dcrnn_supervisor - INFO - ('y_test', (6850, 12, 207, 2))
+2024-11-26 16:25:22,586 - model.dcrnn_supervisor - INFO - Total number of trainable parameters: 372352
+2024-11-26 16:34:18,232 - model.dcrnn_supervisor - INFO - Horizon 01, MAE: 2.17, MAPE: 0.0517, RMSE: 3.76
+2024-11-26 16:34:18,318 - model.dcrnn_supervisor - INFO - Horizon 02, MAE: 2.47, MAPE: 0.0612, RMSE: 4.59
+2024-11-26 16:34:18,420 - model.dcrnn_supervisor - INFO - Horizon 03, MAE: 2.66, MAPE: 0.0683, RMSE: 5.16
+2024-11-26 16:34:18,519 - model.dcrnn_supervisor - INFO - Horizon 04, MAE: 2.82, MAPE: 0.0742, RMSE: 5.61
+2024-11-26 16:34:18,616 - model.dcrnn_supervisor - INFO - Horizon 05, MAE: 2.95, MAPE: 0.0792, RMSE: 5.98
+2024-11-26 16:34:18,716 - model.dcrnn_supervisor - INFO - Horizon 06, MAE: 3.06, MAPE: 0.0836, RMSE: 6.28
+2024-11-26 16:34:18,816 - model.dcrnn_supervisor - INFO - Horizon 07, MAE: 3.16, MAPE: 0.0875, RMSE: 6.54
+2024-11-26 16:34:18,918 - model.dcrnn_supervisor - INFO - Horizon 08, MAE: 3.25, MAPE: 0.0910, RMSE: 6.77
+2024-11-26 16:34:19,021 - model.dcrnn_supervisor - INFO - Horizon 09, MAE: 3.33, MAPE: 0.0941, RMSE: 6.97
+2024-11-26 16:34:19,116 - model.dcrnn_supervisor - INFO - Horizon 10, MAE: 3.40, MAPE: 0.0970, RMSE: 7.15
+2024-11-26 16:34:19,216 - model.dcrnn_supervisor - INFO - Horizon 11, MAE: 3.47, MAPE: 0.0996, RMSE: 7.31
+2024-11-26 16:34:19,317 - model.dcrnn_supervisor - INFO - Horizon 12, MAE: 3.54, MAPE: 0.1024, RMSE: 7.48
+2024-11-26 17:54:18,874 - model.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/METR-LA
+2024-11-26 17:54:18,875 - model.dcrnn_supervisor - INFO - {'base_dir': 'data/model', 'log_level': 'INFO', 'data': {'batch_size': 64, 'dataset_dir': 'data/METR-LA', 'graph_pkl_filename': 'data/sensor_graph/adj_mx.pkl', 'test_batch_size': 64}, 'model': {'cl_decay_steps': 2000, 'filter_type': 'dual_random_walk', 'horizon': 12, 'input_dim': 2, 'l1_decay': 0, 'max_diffusion_step': 2, 'num_nodes': 207, 'num_rnn_layers': 2, 'output_dim': 1, 'rnn_units': 64, 'seq_len': 12, 'use_curriculum_learning': True}, 'train': {'base_lr': 0.01, 'dropout': 0, 'epoch': 64, 'epochs': 100, 'epsilon': 0.001, 'global_step': 24375, 'log_dir': 'data/model/pretrained/METR-LA', 'lr_decay_ratio': 0.1, 'max_grad_norm': 5, 'max_to_keep': 100, 'min_learning_rate': 2e-06, 'model_filename': 'data/model/pretrained/METR-LA/models-2.7422-24375', 'optimizer': 'adam', 'patience': 50, 'steps': [20, 30, 40, 50], 'test_every_n_epochs': 10}}
+2024-11-26 17:54:27,646 - model.dcrnn_supervisor - INFO - ('x_train', (23974, 12, 207, 2))
+2024-11-26 17:54:27,646 - model.dcrnn_supervisor - INFO - ('y_train', (23974, 12, 207, 2))
+2024-11-26 17:54:27,646 - model.dcrnn_supervisor - INFO - ('x_val', (3425, 12, 207, 2))
+2024-11-26 17:54:27,646 - model.dcrnn_supervisor - INFO - ('y_val', (3425, 12, 207, 2))
+2024-11-26 17:54:27,646 - model.dcrnn_supervisor - INFO - ('x_test', (6850, 12, 207, 2))
+2024-11-26 17:54:27,646 - model.dcrnn_supervisor - INFO - ('y_test', (6850, 12, 207, 2))
+2024-11-26 17:54:34,396 - model.dcrnn_supervisor - INFO - Total number of trainable parameters: 372352
+2024-11-26 18:04:36,388 - model.dcrnn_supervisor - INFO - Horizon 01, MAE: 2.17, MAPE: 0.0517, RMSE: 3.76
+2024-11-26 18:04:36,458 - model.dcrnn_supervisor - INFO - Horizon 02, MAE: 2.47, MAPE: 0.0612, RMSE: 4.59
+2024-11-26 18:04:36,538 - model.dcrnn_supervisor - INFO - Horizon 03, MAE: 2.66, MAPE: 0.0683, RMSE: 5.16
+2024-11-26 18:04:36,621 - model.dcrnn_supervisor - INFO - Horizon 04, MAE: 2.82, MAPE: 0.0742, RMSE: 5.61
+2024-11-26 18:04:36,690 - model.dcrnn_supervisor - INFO - Horizon 05, MAE: 2.95, MAPE: 0.0792, RMSE: 5.98
+2024-11-26 18:04:36,790 - model.dcrnn_supervisor - INFO - Horizon 06, MAE: 3.06, MAPE: 0.0836, RMSE: 6.28
+2024-11-26 18:04:36,859 - model.dcrnn_supervisor - INFO - Horizon 07, MAE: 3.16, MAPE: 0.0875, RMSE: 6.54
+2024-11-26 18:04:36,938 - model.dcrnn_supervisor - INFO - Horizon 08, MAE: 3.25, MAPE: 0.0910, RMSE: 6.77
+2024-11-26 18:04:37,054 - model.dcrnn_supervisor - INFO - Horizon 09, MAE: 3.33, MAPE: 0.0941, RMSE: 6.97
+2024-11-26 18:04:37,188 - model.dcrnn_supervisor - INFO - Horizon 10, MAE: 3.40, MAPE: 0.0970, RMSE: 7.15
+2024-11-26 18:04:37,321 - model.dcrnn_supervisor - INFO - Horizon 11, MAE: 3.47, MAPE: 0.0996, RMSE: 7.31
+2024-11-26 18:04:37,421 - model.dcrnn_supervisor - INFO - Horizon 12, MAE: 3.54, MAPE: 0.1024, RMSE: 7.48

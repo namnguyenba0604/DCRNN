@@ -1,0 +1,21 @@
+2024-11-26 14:12:11,390 - model.dcrnn_supervisor - INFO - Log directory: data/model/pretrained/PEMS-BAY/
+2024-11-26 14:12:11,390 - model.dcrnn_supervisor - INFO - {'base_dir': 'data/model', 'data': {'batch_size': 64, 'dataset_dir': 'data/PEMS-BAY', 'graph_pkl_filename': 'data/sensor_graph/adj_mx_bay.pkl', 'test_batch_size': 64, 'val_batch_size': 64}, 'log_level': 'INFO', 'model': {'cl_decay_steps': 2000, 'filter_type': 'dual_random_walk', 'horizon': 12, 'input_dim': 2, 'l1_decay': 0, 'max_diffusion_step': 2, 'num_nodes': 325, 'num_rnn_layers': 2, 'output_dim': 1, 'rnn_units': 64, 'seq_len': 12, 'use_curriculum_learning': True}, 'train': {'base_lr': 0.01, 'dropout': 0, 'epoch': 53, 'epochs': 100, 'epsilon': 0.001, 'global_step': 30780, 'log_dir': 'data/model/pretrained/PEMS-BAY/', 'lr_decay_ratio': 0.1, 'max_grad_norm': 5, 'max_to_keep': 100, 'min_learning_rate': 2e-06, 'model_filename': 'data/model/pretrained/PEMS-BAY/models-1.6139-30780', 'optimizer': 'adam', 'patience': 50, 'steps': [20, 30, 40, 50], 'test_every_n_epochs': 10}}
+2024-11-26 14:13:07,447 - model.dcrnn_supervisor - INFO - ('x_train', (36465, 12, 325, 2))
+2024-11-26 14:13:07,486 - model.dcrnn_supervisor - INFO - ('y_train', (36465, 12, 325, 2))
+2024-11-26 14:13:07,486 - model.dcrnn_supervisor - INFO - ('x_val', (5209, 12, 325, 2))
+2024-11-26 14:13:07,518 - model.dcrnn_supervisor - INFO - ('y_val', (5209, 12, 325, 2))
+2024-11-26 14:13:07,521 - model.dcrnn_supervisor - INFO - ('x_test', (10419, 12, 325, 2))
+2024-11-26 14:13:07,521 - model.dcrnn_supervisor - INFO - ('y_test', (10419, 12, 325, 2))
+2024-11-26 14:13:17,464 - model.dcrnn_supervisor - INFO - Total number of trainable parameters: 372352
+2024-11-26 14:36:34,029 - model.dcrnn_supervisor - INFO - Horizon 01, MAE: 0.85, MAPE: 0.0163, RMSE: 1.53
+2024-11-26 14:36:34,260 - model.dcrnn_supervisor - INFO - Horizon 02, MAE: 1.12, MAPE: 0.0225, RMSE: 2.22
+2024-11-26 14:36:34,483 - model.dcrnn_supervisor - INFO - Horizon 03, MAE: 1.31, MAPE: 0.0273, RMSE: 2.75
+2024-11-26 14:36:34,720 - model.dcrnn_supervisor - INFO - Horizon 04, MAE: 1.45, MAPE: 0.0312, RMSE: 3.17
+2024-11-26 14:36:34,956 - model.dcrnn_supervisor - INFO - Horizon 05, MAE: 1.56, MAPE: 0.0343, RMSE: 3.49
+2024-11-26 14:36:35,203 - model.dcrnn_supervisor - INFO - Horizon 06, MAE: 1.64, MAPE: 0.0369, RMSE: 3.74
+2024-11-26 14:36:35,434 - model.dcrnn_supervisor - INFO - Horizon 07, MAE: 1.72, MAPE: 0.0392, RMSE: 3.94
+2024-11-26 14:36:35,683 - model.dcrnn_supervisor - INFO - Horizon 08, MAE: 1.78, MAPE: 0.0411, RMSE: 4.11
+2024-11-26 14:36:35,926 - model.dcrnn_supervisor - INFO - Horizon 09, MAE: 1.83, MAPE: 0.0426, RMSE: 4.25
+2024-11-26 14:36:36,147 - model.dcrnn_supervisor - INFO - Horizon 10, MAE: 1.88, MAPE: 0.0440, RMSE: 4.37
+2024-11-26 14:36:36,413 - model.dcrnn_supervisor - INFO - Horizon 11, MAE: 1.92, MAPE: 0.0451, RMSE: 4.47
+2024-11-26 14:36:36,622 - model.dcrnn_supervisor - INFO - Horizon 12, MAE: 1.96, MAPE: 0.0462, RMSE: 4.55

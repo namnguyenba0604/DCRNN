@@ -1,0 +1,40 @@
+2024-11-26 14:42:21,002 - Baseline - INFO - Log directory: data/model
+2024-11-26 14:42:21,454 - Baseline - INFO - Static
+2024-11-26 14:42:21,454 - Baseline - INFO - Model	Horizon	RMSE	MAPE	MAE
+2024-11-26 14:42:21,530 - Baseline - INFO - Static	1	6.07	6.84	3.05
+2024-11-26 14:42:21,641 - Baseline - INFO - Static	3	8.69	9.39	4.02
+2024-11-26 14:42:21,726 - Baseline - INFO - Static	6	11.13	12.21	5.09
+2024-11-26 14:42:21,808 - Baseline - INFO - Static	12	14.21	16.71	6.79
+2024-11-26 14:42:23,911 - Baseline - INFO - Historical Average
+2024-11-26 14:42:23,911 - Baseline - INFO - Model	Horizon	RMSE	MAPE	MAE
+2024-11-26 14:42:23,911 - Baseline - INFO - HA	1	7.77	12.90	4.15
+2024-11-26 14:42:23,911 - Baseline - INFO - HA	3	7.77	12.90	4.15
+2024-11-26 14:42:23,917 - Baseline - INFO - HA	6	7.77	12.90	4.15
+2024-11-26 14:42:23,917 - Baseline - INFO - HA	12	7.77	12.90	4.15
+2024-11-26 14:42:47,325 - Baseline - INFO - VAR (lag=3)
+2024-11-26 14:42:47,325 - Baseline - INFO - Model	Horizon	RMSE	MAPE	MAE
+2024-11-26 14:42:47,398 - Baseline - INFO - VAR	1	5.64	7.03	3.17
+2024-11-26 14:42:47,465 - Baseline - INFO - VAR	3	7.78	10.08	4.37
+2024-11-26 14:42:47,532 - Baseline - INFO - VAR	6	9.37	12.75	5.40
+2024-11-26 14:42:47,599 - Baseline - INFO - VAR	12	10.68	15.84	6.50
+2024-11-26 14:44:13,427 - Baseline - INFO - Log directory: data/model
+2024-11-26 14:44:23,143 - Baseline - INFO - Log directory: data/model
+2024-11-26 14:44:32,432 - Baseline - INFO - Log directory: data/model
+2024-11-26 14:44:32,660 - Baseline - INFO - Static
+2024-11-26 14:44:32,660 - Baseline - INFO - Model	Horizon	RMSE	MAPE	MAE
+2024-11-26 14:44:32,831 - Baseline - INFO - Static	1	1.86	1.86	0.98
+2024-11-26 14:44:33,012 - Baseline - INFO - Static	3	3.43	3.24	1.60
+2024-11-26 14:44:33,212 - Baseline - INFO - Static	6	4.98	4.65	2.18
+2024-11-26 14:44:33,412 - Baseline - INFO - Static	12	7.02	6.84	3.05
+2024-11-26 14:44:35,526 - Baseline - INFO - Historical Average
+2024-11-26 14:44:35,526 - Baseline - INFO - Model	Horizon	RMSE	MAPE	MAE
+2024-11-26 14:44:35,526 - Baseline - INFO - HA	1	5.59	6.76	2.88
+2024-11-26 14:44:35,526 - Baseline - INFO - HA	3	5.59	6.76	2.88
+2024-11-26 14:44:35,526 - Baseline - INFO - HA	6	5.59	6.76	2.88
+2024-11-26 14:44:35,526 - Baseline - INFO - HA	12	5.59	6.76	2.88
+2024-11-26 14:45:12,484 - Baseline - INFO - VAR (lag=3)
+2024-11-26 14:45:12,484 - Baseline - INFO - Model	Horizon	RMSE	MAPE	MAE
+2024-11-26 14:45:12,641 - Baseline - INFO - VAR	1	1.75	1.97	1.02
+2024-11-26 14:45:12,780 - Baseline - INFO - VAR	3	3.09	3.59	1.74
+2024-11-26 14:45:12,939 - Baseline - INFO - VAR	6	4.15	5.02	2.33
+2024-11-26 14:45:13,088 - Baseline - INFO - VAR	12	5.11	6.46	2.92

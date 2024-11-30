@@ -1,0 +1,10 @@
+2024-11-26 14:51:07,306 - model.dcrnn_supervisor - INFO - Log directory: data/model\dcrnn_DR_2_h_12_64-64_lr_0.01_bs_16_1126145107/
+2024-11-26 14:51:07,306 - model.dcrnn_supervisor - INFO - {'base_dir': 'data/model', 'log_level': 'INFO', 'data': {'batch_size': 16, 'dataset_dir': 'data/METR-LA', 'test_batch_size': 16, 'val_batch_size': 16, 'graph_pkl_filename': 'data/sensor_graph/adj_mx.pkl'}, 'model': {'cl_decay_steps': 2000, 'filter_type': 'dual_random_walk', 'horizon': 12, 'input_dim': 2, 'l1_decay': 0, 'max_diffusion_step': 2, 'num_nodes': 207, 'num_rnn_layers': 2, 'output_dim': 1, 'rnn_units': 64, 'seq_len': 12, 'use_curriculum_learning': True}, 'train': {'base_lr': 0.01, 'dropout': 0, 'epoch': 0, 'epochs': 10, 'epsilon': 0.001, 'global_step': 0, 'lr_decay_ratio': 0.1, 'max_grad_norm': 5, 'max_to_keep': 100, 'min_learning_rate': 2e-06, 'optimizer': 'adam', 'patience': 50, 'steps': [20, 30, 40, 50], 'test_every_n_epochs': 10}}
+2024-11-26 14:51:15,629 - model.dcrnn_supervisor - INFO - ('x_train', (23974, 12, 207, 2))
+2024-11-26 14:51:15,629 - model.dcrnn_supervisor - INFO - ('y_train', (23974, 12, 207, 2))
+2024-11-26 14:51:15,629 - model.dcrnn_supervisor - INFO - ('x_val', (3425, 12, 207, 2))
+2024-11-26 14:51:15,629 - model.dcrnn_supervisor - INFO - ('y_val', (3425, 12, 207, 2))
+2024-11-26 14:51:15,629 - model.dcrnn_supervisor - INFO - ('x_test', (6850, 12, 207, 2))
+2024-11-26 14:51:15,629 - model.dcrnn_supervisor - INFO - ('y_test', (6850, 12, 207, 2))
+2024-11-26 14:51:22,752 - model.dcrnn_supervisor - INFO - Total number of trainable parameters: 372352
+2024-11-26 14:51:23,428 - model.dcrnn_supervisor - INFO - Start training ...
